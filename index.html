@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Star Wars API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="X-UA Compatible" content="ie=edge">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Muli|Pacifico|Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--seccion del nav-->
+    <header class="row">
+        <div class="navbar-fixed">
+            <nav class="col s-12">
+                <div class="nav-wrapper">
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <a href="#!" class="brand-logo center"><img src="assets/img/logo.png" class="responsive-img"/></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#acercaDeMi">Acerca de mi</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="hide-on-large-only">
+            <ul id="slide-out" class="side-nav">
+                <li><div class="userView">  
+                    <div class="background">
+                        <img src="assets/img/flores_azules.jpg">
+                    </div>
+                    <a href="#!user"><img class="circle" src="assets/img/yo_cara.jpg"></a>
+                    <a href="#!name"><span class="datos name">Noemi Arismendi</span></a>
+                    <a href="#!email"><span class="datos email">noemiarismendi.cc@gmail.com</span></a>
+                </div></li>
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </ul>
+<!--            <a href="#" data-activates="slide-out" class="button-collap se"><i class="material-icons">menu</i></a>-->
+        </div>
+    </header>
+<!--seccion del home/about-->
+    <section class="row" id="acercaDeMi">
+        <div class="col s12 bodyHome">
+            <div class="container">
+                <p class="textoHome center">Mimi Arismendi</p>
+                <img src="assets/img/yo_cara.jpg" class="responsive-img imgHome center col s6 offset-s3 l4 offset-l4"/>
+                <p class="infoHome col s10 offset-s1 l12 center">Soy una Front End Developer Jr. y Relacionista Comercial de profesión, apasionada en todo lo que hago y desarrollo, amante de los animales y la naturaleza, la cocina, el baile y runner por dedicación y no por moda.</p>
+            </div>
+            
+        </div>
+        <!--<div class="col s12 l6 contentHome">
+            <div class="row">
+                <img src="assets/img/logo.png" class="responsive-img col s12 l4 offset-l4"/>
+                <p class="col s12 l8 offset-l2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut mollis enim. Curabitur vel commodo nunc, sit amet consectetur dolor. Sed eu tortor cursus, dignissim metus eget, interdum sem. Praesent at tortor ullamcorper, venenatis ligula eget, feugiat urna. Praesent consectetur euismod ligula, vel commodo nunc tempor sed. Integer hendrerit dolor ut pharetra vehicula. Cras tincidunt, ligula at pharetra feugiat, sem est semper quam, quis tristique nulla nibh in massa. Quisque at tortor sodales, lacinia erat vel, suscipit lectus. Donec in pulvinar tortor. Nam semper dolor ut auctor consequat. Ut tincidunt lacus sed dui dictum, at interdum est vulputate. Vivamus at commodo dolor, in malesuada dolor. In risus nisi, euismod in egestas eget, feugiat quis nunc. Sed id dolor non elit vestibulum tincidunt. Pellentesque tincidunt, augue vel pretium fermentum, lectus ligula tempus mauris, ut pretium quam orci et sem. Cras cursus ligula ac enim efficitur, ut fringilla purus dapibus.</p>
+            </div>
+        </div>-->
+    </section>
+<!-- seccion proyectos -->
+    <section class="proyectos" id="proyectos">
+        <div class="row container">
+            <div class="proyectosTitulo center">Proyectos</div>
+            <div class="card col s10  offset-s1 l5 offset-l1">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/img/proyectos/App_love.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">App Love<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/MimiArismendi/Applove-con-Grids" target="_blank">codigo</a></p>
+                <p><a href="https://mimiarismendi.github.io/Applove-con-Grids/" target="_blank">link</a></p>                
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">App Love<i class="material-icons right">close</i></span>
+                <p>App love es una app realizada con grid</p>
+            </div>
+        </div>
+        <div class="card col s10 offset-s1 l5 offset-l1">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/img/proyectos/Bootstrap.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Bootstrap<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/MimiArismendi/freelancer-boostrap" target="_blank">codigo</a></p>
+                <p><a href="https://mimiarismendi.github.io/freelancer-boostrap/" target="_blank">link</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Bootstrap<i class="material-icons right">close</i></span>
+                <p>Proyecto con Grid.</p>
+            </div>
+        </div>
+        <div class="card col s10  offset-s1 l5 offset-l1">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/img/proyectos/Lab-car.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Lab-car<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/MimiArismendi/Lab-ar" target="_blank">codigo</a></p>
+                <p><a href="https://mimiarismendi.github.io/Lab-ar/" target="_blank">link</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Lab-car<i class="material-icons right">close</i></span>
+                <p>Proyecto de fin de curso realizado con grid y responsive.</p>
+            </div>
+        </div>        
+        <div class="card col s10 offset-s1 l5 offset-l1">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/img/proyectos/landing_retro.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Landing Retro<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/MimiArismendi/Landing-responsive-retro" target="_blank">codigo</a></p>
+                <p><a href="https://mimiarismendi.github.io/Landing-responsive-retro/" target="_blank">link</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Landing Retro<i class="material-icons right">close</i></span>
+                <p>Proyecto con responsive</p>
+            </div>
+        </div>
+   <!--     <div class="card col s12 l4">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/img/logo.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Nombre del proyecto<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Nombre del proyecto<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div>
+        <div class="card col s12 l4">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/img/logo.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Nombre del proyecto<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Nombre del proyecto<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div>-->  
+        
+        </div>
+        
+    </section>
+<!--seccion skills -->
+    <section class="row habilidades" id="habilidades">
+        <div class="col s12 l6">
+            <div>
+                <!--<img src="assets/img/logo.png" class="responsive-img col s12 l4 offset-l4"/>-->
+                <p class="col s12 l8 offset-l2 textoHome">Habilidades</p>
+            </div>
+            <div>
+                <span class="col s3 offset-s3">Básico</span>
+                <span class="col s3 ">Intermedio</span>
+                <span class="col s3 ">Avanzado</span>
+            </div>
+            <div class="progress">
+                <div class="determinate" style="width: 70%"></div>
+            </div>
+            <span>HTML5</span>
+            <div class="progress">
+                <div class="determinate" style="width: 70%"></div>
+            </div>
+            <span>JavaScript</span>
+            <div class="progress">
+                <div class="determinate" style="width: 70%"></div>
+            </div>
+            <span>CSS3</span>
+            <div class="progress">
+                <div class="determinate" style="width: 70%"></div>
+            </div>
+            <span>Bootstrap</span>
+            <div class="progress">
+                <div class="determinate" style="width: 70%"></div>
+            </div>
+            <span>Materialize</span>
+            <div class="progress">
+                <div class="determinate" style="width: 70%"></div>
+            </div>
+            <span>Git</span>
+            
+        </div>
+        <div class="col s12 l6 center hide-on-small-only">
+            <img src="assets/img/fondo_toluca.jpg"/>
+        </div>
+    </section>
+<!--seccion de contacto-->
+    <section class="row contactame" id="contacto">
+		<section class="center">
+			<div class="col s12">Contáctame</div>
+            <hr class="col s8 offset-s2">
+            <div class="col s6 offset-s3">
+                <i class="material-icons large">email</i>
+                <i class="material-icons large">call</i>
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </div>
+            <hr class="col s8 offset-s2">
+            <div class="col s8 offset-s2">
+                <p class="contactameTexto">Estoy siempre interesada en nuevos proyectos, sólo enviame un mail y me pondré en contacto lo más pronto posible.</p>
+            </div>
+		</section>
+		
+	</section>
+
+
+<!--seccion footer-->
+    <footer class="col s12"><img src="assets/img/footer.png" class="responsive-img"/></footer>
+    
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
