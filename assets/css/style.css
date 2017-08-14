@@ -125,6 +125,9 @@ nav{
     height: 50%;
 }
 
+.nivel{
+    color: darkred;
+}
 .row .col.l4{
     width: 24.333%;
 }
@@ -140,6 +143,14 @@ nav{
 
 .row{
     margin-bottom: 0px;
+}
+
+.ocultar{
+    display: none;
+}
+.habilidades:hover .ocultar{
+        display: inline-block;
+    
 }
 
 
