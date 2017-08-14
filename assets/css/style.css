@@ -1,82 +1,93 @@
-.paletadecoloresROJO:{
-    color: #CAA57D;
-    color: #C1D8C7;
-    color: #85AC8D;
-    color: #E79B80;
-    color: #DC0F27;
-}
-.paletadecoloresAZUL:{
-    color: #7FAFAE;
-    color: #BCDED8;
-    color: #F7B0A8;
-    color: #E78476;
-    color: #5B524A;
-}
-.paletadecoloresVINO:{
-    color: #A1305C;
-    color: #DA90B6;
-    color: #D7D5DA;
-    color: #82A5A1;
-    color: #3F6971;
-}
-.paletadecoloresROSA:{
-    color: #DD7877;
-    color: #EDC8C9;
-    color: #E6C3B7;
-    color: #DAEAE3;
-    color: #8EC0BB;
-}
-.paletadecoloresAZULF:{
-    color: #BF9E73;
-    color: #E6CF9E;
-    color: #EEE2D0;
-    color: #CBDFE6;
-    color: #A5CAD4;
-    color: #6C91A2;
-}
-
-body{
-    background-color: #A5CAD4;
-}
+/*normales*/
 .tipografias{
-    font-family: 'Droid Serif', serif;
-    font-family: 'Muli', sans-serif;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 }
 
+/*cursiva*/
+
+.tipografiasCursivas{
+    font-family: 'Montez', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Pattaya', sans-serif;
+font-family: 'Redressed', cursive;
+}
+
+/*titulonombre*/
+
+.tipografiasnombre{
+    font-family: 'Akronim', cursive;
+font-family: 'Delius Swash Caps', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Homemade Apple', cursive;
+}
+
+/*
 .bodyHome{
-    background-image: url(../img/flores_azul.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     width: 100%;
     height: 100vh;
 }
+*/
 
-.textoHome{
-    font-family: 'Pacifico', cursive;
-    color: #EEE2D0;
-    font-size: 50px;
+.menuInicio{
+    font-family: 'Homemade Apple', cursive;
+}
+.parallax-container .parallax img{
+    opacity: .7;
 }
 
-.infoHome{
-    font-family: 'Muli', sans-serif;
-    background-color: #EEE2D0;
-    color: #6C91A2;
-    font-weight: bold;
-    border-radius: 5%;
+.parallax-container .parallax img dos{
+    bottom: 150px;
 }
 
-.imgHome{
-    border-radius: 30%;
+.parallax-container {
+    height: 280px;    
+}
+
+.nombre{
+    font-family: 'Homemade Apple', cursive;
+    color: darkred;
+}
+
+.fondo{
+    width: 100%;
+    height: 100vh;
+    background-color: #616161; 
+}
+
+.tituloAcerca{
+    margin-left: 25%;
+    margin-top: 40%;
+    color: white;
+    font-family: 'Lobster Two', cursive;    
+}
+
+.resumenAcerca{
+    font-size: 22px;
 }
 
 .navbar-fixed{
     height: 45px;
 }
+
 nav{
-    background-color: #BF9E73;
+    background-color: darkred;
     height: 80px;
 }
 
@@ -85,42 +96,46 @@ nav{
 }
 
 .proyectos{
-    background-color: #EEE2D0; 
-    font-family: 'Muli', sans-serif;
+    background-color: darkred;
+    margin-top: -32px;
 }
+
 .proyectosTitulo{
-    font-family: 'Pacifico', cursive;
-    color: #BF9E73;
-    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+    color: #616161;
+}
+
+.carousel .carousel-item{
+    width: 400px;
+    height: 200px;
+}
+
+.tituloHabilidades{
+    font-family: 'Lobster Two', cursive;
+    color: darkred;
+}
+
+.subtituloHabilidades{
+    font-family: 'Lobster Two', cursive;
+    color: #616161; 
 }
 
 .habilidades{
-    font-family: 'Muli', sans-serif;
-    color: #6C91A2;
-    font-weight: bold;
+    width: 50%;
+    height: 50%;
 }
 
-.progress{
-    height: 15px;
-    background-color: #EEE2D0; 
+.row .col.l4{
+    width: 24.333%;
 }
 
-.progress.determinate{
-    background-color: #6C91A2;
-}
 .contactame{
-    background-color: #6C91A2;
-    font-family: 'Pacifico', cursive;
-    color: #E6CF9E;
-    font-size: 50px;
-}
-.contactameTexto{
-   font-family: 'Muli', sans-serif; 
-    font-size: 20px;
+    background-color: #616161;
+    color: white;
 }
 
-footer{
-    background-color: #6C91A2;
+.tituloContacto{
+   font-family: 'Lobster Two', cursive; 
 }
 
 .row{

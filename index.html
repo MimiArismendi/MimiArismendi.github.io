@@ -2,24 +2,30 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Star Wars API</title>
+	<title>Noemi Arismendi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="X-UA Compatible" content="ie=edge">
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Muli|Pacifico|Tangerine" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/ico.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--aqui va el link para la tipografia-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Lora|Open+Sans|PT+Serif|Source+Sans+Pro|Titillium+Web|Ubuntu" rel="stylesheet"><!--normales-->
+    <link href="https://fonts.googleapis.com/css?family=Allura|Cedarville+Cursive|Dancing+Script|Kaushan+Script|Lobster+Two|Montez|Pattaya|Redressed|Sacramento|Tangerine" rel="stylesheet"><!--cursiva-->
+    <link href="https://fonts.googleapis.com/css?family=Akronim|Cabin+Sketch|Delius+Swash+Caps|Fredericka+the+Great|Homemade+Apple" rel="stylesheet"><!--nombre-->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    
+    
+    
 </head>
 <body>
 <!--seccion del nav-->
     <header class="row">
         <div class="navbar-fixed">
-            <nav class="col s-12">
+            <nav class="col s-12 m-12">
                 <div class="nav-wrapper">
                     <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <a href="#!" class="brand-logo center"><img src="assets/img/logo.png" class="responsive-img"/></a>
+                    <a href="#home" class="menuInicio">Noemi Arismendi</a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#acercaDeMi">Acerca de mi</a></li>
                         <li><a href="#proyectos">Proyectos</a></li>
@@ -32,196 +38,177 @@
         <div class="hide-on-large-only">
             <ul id="slide-out" class="side-nav">
                 <li><div class="userView">  
-                    <div class="background">
-                        <img src="assets/img/flores_azules.jpg">
-                    </div>
-                    <a href="#!user"><img class="circle" src="assets/img/yo_cara.jpg"></a>
-                    <a href="#!name"><span class="datos name">Noemi Arismendi</span></a>
-                    <a href="#!email"><span class="datos email">noemiarismendi.cc@gmail.com</span></a>
+                    <a href="#"><img class="circle" src="assets/img/yo_cara.jpg"></a>
+                    <a href="#home"><span class="grey-text">Noemi Arismendi</span></a>
+                    <a href="mailto:noemiarismendi.cc@gmail.com/"><span class="red-text">noemiarismendi.cc@gmail.com</span></a>
                 </div></li>
-                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-                <li><a href="#!">Second Link</a></li>
-                <li><div class="divider"></div></li>
-                <li><a class="subheader">Subheader</a></li>
-                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                <li><a href="#acercaDeMi">Aerca de mí</a></li>
+                <li><a href="#proyectos">Mis Proyectos</a></li>
+                <li><a href="#habilidades">Mis Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
 <!--            <a href="#" data-activates="slide-out" class="button-collap se"><i class="material-icons">menu</i></a>-->
         </div>
     </header>
-<!--seccion del home/about-->
-    <section class="row" id="acercaDeMi">
-        <div class="col s12 bodyHome">
-            <div class="container">
-                <p class="textoHome center">Mimi Arismendi</p>
-                <img src="assets/img/yo_cara.jpg" class="responsive-img imgHome center col s6 offset-s3 l4 offset-l4"/>
-                <p class="infoHome col s10 offset-s1 l12 center">Soy una Front End Developer Jr. y Relacionista Comercial de profesión, apasionada en todo lo que hago y desarrollo, amante de los animales y la naturaleza, la cocina, el baile y runner por dedicación y no por moda.</p>
+<!--seccion de nombre-->
+    <section class="row" id="home">
+        <div class="parallax-container">
+            <div class="parallax">
+                <img class="responsive-img" src="assets/img/html_uno.png">
             </div>
-            
         </div>
-        <!--<div class="col s12 l6 contentHome">
-            <div class="row">
-                <img src="assets/img/logo.png" class="responsive-img col s12 l4 offset-l4"/>
-                <p class="col s12 l8 offset-l2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut mollis enim. Curabitur vel commodo nunc, sit amet consectetur dolor. Sed eu tortor cursus, dignissim metus eget, interdum sem. Praesent at tortor ullamcorper, venenatis ligula eget, feugiat urna. Praesent consectetur euismod ligula, vel commodo nunc tempor sed. Integer hendrerit dolor ut pharetra vehicula. Cras tincidunt, ligula at pharetra feugiat, sem est semper quam, quis tristique nulla nibh in massa. Quisque at tortor sodales, lacinia erat vel, suscipit lectus. Donec in pulvinar tortor. Nam semper dolor ut auctor consequat. Ut tincidunt lacus sed dui dictum, at interdum est vulputate. Vivamus at commodo dolor, in malesuada dolor. In risus nisi, euismod in egestas eget, feugiat quis nunc. Sed id dolor non elit vestibulum tincidunt. Pellentesque tincidunt, augue vel pretium fermentum, lectus ligula tempus mauris, ut pretium quam orci et sem. Cras cursus ligula ac enim efficitur, ut fringilla purus dapibus.</p>
+        <div class="section grey darken-2">
+            <div class="row container center">
+                <h2 class="header nombre">Noemi Arismendi</h2>
+                <p class="white-text">Front-End Developer &amp; Lic. en Relaciones Comerciales </p>
             </div>
-        </div>-->
+        </div>
+        <div class="parallax-container hide-on-med-and-down">
+            <div class="parallax">
+                <img class="responsive-img" src="assets/img/html_dos.png">
+            </div>
+        </div>
+        
+    </section>
+    
+<!--seccion del about me-->
+    <section class="row valign-wrapper" id="acercaDeMi">
+        <div class="col l6 fondo hide-on-med-and-down">
+            <h1 class="tituloAcerca">Acerca de mí</h1>
+        </div>
+        <div class="col l6">
+            <p class="resumenAcerca justify col l10 offset-l1 col s8 offset-s2 m10 offset-m1">Este es mi portafolio, mi nombre completo es Noemi Arismendi Juárez y soy Licenciada en Relaciones Comerciales de profesión y ahora me desarrollo como Front-End Developer Jr., con experiencia en prototyping, servicio al cliente, desarrollo organizacional, entre otros.<br>
+            Me encanta lo que hago y lo que puedo crear con el codigo. Soy una persona apasionada por el running, los animales, el baile y la cocina.</p>
+        </div>   
     </section>
 <!-- seccion proyectos -->
     <section class="proyectos" id="proyectos">
-        <div class="row container">
-            <div class="proyectosTitulo center">Proyectos</div>
-            <div class="card col s10  offset-s1 l5 offset-l1">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/img/proyectos/App_love.png">
-            </div>
-            <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">App Love<i class="material-icons right">more_vert</i></span>
-                <p><a href="https://github.com/MimiArismendi/Applove-con-Grids" target="_blank">codigo</a></p>
-                <p><a href="https://mimiarismendi.github.io/Applove-con-Grids/" target="_blank">link</a></p>                
-            </div>
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">App Love<i class="material-icons right">close</i></span>
+        <h1 class="center proyectosTitulo">Mis proyectos</h1>
+        <div class="carousel">
+            <a class="carousel-item modal-trigger" href="#modal1"><img src="assets/img/proyectos/App_love.png"></a>
+            <a class="carousel-item" href="#modal2"><img src="assets/img/proyectos/Bootstrap.png"></a>
+            <a class="carousel-item" href="#modal3"><img src="assets/img/proyectos/Lab-car.png"></a>
+            <a class="carousel-item" href="#modal4"><img src="assets/img/proyectos/landing_retro.png"></a>
+        </div>
+    </section>
+<!--seccion modales de portafolio-->
+        <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>App Love</h4>
                 <p>App love es una app realizada con grid</p>
+                <img class="responsive-img responsive-img">
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/MimiArismendi/Applove-con-Grids" class="modal-action modal-close waves-effect waves-green btn-flat " target="_blank">Código</a>
+                <a href="https://mimiarismendi.github.io/Applove-con-Grids/" class="modal-action modal-close waves-effect waves-green btn-flat " target="_blank">Link Github</a>
             </div>
         </div>
-        <div class="card col s10 offset-s1 l5 offset-l1">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/img/proyectos/Bootstrap.png">
-            </div>
-            <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Bootstrap<i class="material-icons right">more_vert</i></span>
-                <p><a href="https://github.com/MimiArismendi/freelancer-boostrap" target="_blank">codigo</a></p>
-                <p><a href="https://mimiarismendi.github.io/freelancer-boostrap/" target="_blank">link</a></p>
-            </div>
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Bootstrap<i class="material-icons right">close</i></span>
+        <div id="modal2" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Bootstrap</h4>
                 <p>Proyecto con Grid.</p>
             </div>
+            <div class="modal-footer">
+                <a href="https://github.com/MimiArismendi/freelancer-boostrap" class="modal-action modal-close waves-effect waves-green btn-flat" target="_blank">Código</a>
+                <a href="https://mimiarismendi.github.io/freelancer-boostrap/" class="modal-action modal-close waves-effect waves-green btn-flat" target="_blank">Link Github</a>
+            </div>
         </div>
-        <div class="card col s10  offset-s1 l5 offset-l1">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/img/proyectos/Lab-car.png">
-            </div>
-            <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Lab-car<i class="material-icons right">more_vert</i></span>
-                <p><a href="https://github.com/MimiArismendi/Lab-ar" target="_blank">codigo</a></p>
-                <p><a href="https://mimiarismendi.github.io/Lab-ar/" target="_blank">link</a></p>
-            </div>
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Lab-car<i class="material-icons right">close</i></span>
+        <div id="modal3" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Lab-car</h4>
                 <p>Proyecto de fin de curso realizado con grid y responsive.</p>
             </div>
-        </div>        
-        <div class="card col s10 offset-s1 l5 offset-l1">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/img/proyectos/landing_retro.png">
+            <div class="modal-footer">
+                <a href="https://github.com/MimiArismendi/Lab-ar" class="modal-action modal-close waves-effect waves-green btn-flat" target="_blank">Código</a>
+                <a href="https://mimiarismendi.github.io/Lab-ar/" class="modal-action modal-close waves-effect waves-green btn-flat" target="_blank">Link Github</a>
             </div>
-            <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Landing Retro<i class="material-icons right">more_vert</i></span>
-                <p><a href="https://github.com/MimiArismendi/Landing-responsive-retro" target="_blank">codigo</a></p>
-                <p><a href="https://mimiarismendi.github.io/Landing-responsive-retro/" target="_blank">link</a></p>
-            </div>
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Landing Retro<i class="material-icons right">close</i></span>
+        </div>
+        <div id="modal4" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Landing Retro</h4>
                 <p>Proyecto con responsive</p>
             </div>
-        </div>
-   <!--     <div class="card col s12 l4">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/img/logo.png">
-            </div>
-            <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Nombre del proyecto<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
-            </div>
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Nombre del proyecto<i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <div class="modal-footer">
+                <a href="https://github.com/MimiArismendi/Landing-responsive-retro" class="modal-action modal-close waves-effect waves-green btn-flat" target="_blank">Código</a>
+                <a href="https://mimiarismendi.github.io/Landing-responsive-retro/" class="modal-action modal-close waves-effect waves-green btn-flat" target="_blank">Link Github</a>
             </div>
         </div>
-        <div class="card col s12 l4">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/img/logo.png">
+<!--seccion habilidades -->
+    <section class="row center" id="habilidades">
+        <h1 class="tituloHabilidades col l12 m12 s12">Mis habilidades</h1>
+        <h3 class="subtituloHabilidades col l12 m12 s12">Técnicas</h3>
+            <div class="col s3 m4 l4">
+                <img src="assets/img/Html5_logo.png" class="responsive-img habilidades" alt="intermedio">
+                <p>HTML5</p>
             </div>
-            <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Nombre del proyecto<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
+            <div class="col s3 m4 l4">
+                <img src="assets/img/Css3_logo.png" class="responsive-img habilidades" alt="intermedio">
+                <p>CSS3</p>
             </div>
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Nombre del proyecto<i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <div class="col s3 m4 l4">
+                <img src="assets/img/Javascript_logo.png" class="responsive-img habilidades" alt="intermedio">
+                <p>Javascript</p>
             </div>
-        </div>-->  
-        
-        </div>
-        
-    </section>
-<!--seccion skills -->
-    <section class="row habilidades" id="habilidades">
-        <div class="col s12 l6">
-            <div>
-                <!--<img src="assets/img/logo.png" class="responsive-img col s12 l4 offset-l4"/>-->
-                <p class="col s12 l8 offset-l2 textoHome">Habilidades</p>
+            <div class="col s3 m4 l4">
+                <img src="assets/img/React_logo.png" class="responsive-img habilidades" alt="básico">
+                <p>React</p>
             </div>
-            <div>
-                <span class="col s3 offset-s3">Básico</span>
-                <span class="col s3 ">Intermedio</span>
-                <span class="col s3 ">Avanzado</span>
+            <div class="col s3 m4 l4">
+                <img src="assets/img/Sass_logo.png" class="responsive-img habilidades" alt="intermedio">
+                <p>Sass</p>
             </div>
-            <div class="progress">
-                <div class="determinate" style="width: 70%"></div>
+            <div class="col s3 m4 l4">
+                <img src="assets/img/Githug_logo.png" class="responsive-img habilidades" alt="intermedio">
+                <p>Github</p>
             </div>
-            <span>HTML5</span>
-            <div class="progress">
-                <div class="determinate" style="width: 70%"></div>
+            <div class="col s3 m4 l4">
+                <img src="assets/img/Materialize_logo.png" class="responsive-img habilidades" alt="intermedio">
+                <p>Materialize</p>
             </div>
-            <span>JavaScript</span>
-            <div class="progress">
-                <div class="determinate" style="width: 70%"></div>
+            <div class="col s3 m4 l4">
+                <img src="assets/img/Bootstrap_logo.png" class="responsive-img habilidades" alt="intermedio">
+                <p>Bootstrap</p>
             </div>
-            <span>CSS3</span>
-            <div class="progress">
-                <div class="determinate" style="width: 70%"></div>
+        <h3 class="subtituloHabilidades col 12 m12 s12">Socio-Emocionales</h3>
+            <div class="col s2 m2 l2 offset-l1">
+                <img class="responsive-img habilidades" src="assets/img/creatividad.png">
+                <p>Creatividad</p>
             </div>
-            <span>Bootstrap</span>
-            <div class="progress">
-                <div class="determinate" style="width: 70%"></div>
+            <div class="col s2 m2 l2">
+                <img class="responsive-img habilidades" src="assets/img/agil.png">
+                <p>Metodología Agil</p>
             </div>
-            <span>Materialize</span>
-            <div class="progress">
-                <div class="determinate" style="width: 70%"></div>
+            <div class="col s2 m2 l2">
+                <img class="responsive-img habilidades" src="assets/img/trabajo_en_equipo.jpg">
+                <p>Trabajo en Equipo</p>
             </div>
-            <span>Git</span>
-            
-        </div>
-        <div class="col s12 l6 center hide-on-small-only">
-            <img src="assets/img/fondo_toluca.jpg"/>
-        </div>
+            <div class="col s2 m2 l2">
+                <img class="responsive-img habilidades" src="assets/img/empatia.png">
+                <p>Empatía</p>
+            </div>
+            <div class="col s2 m2 l2">
+                <img class="responsive-img habilidades" src="assets/img/comunicacion.jpg">
+                <p>Comunicación</p>
+            </div>
     </section>
 <!--seccion de contacto-->
     <section class="row contactame" id="contacto">
-		<section class="center">
-			<div class="col s12">Contáctame</div>
+			<h1 class="col s12 center tituloContacto">Contacto</h1>
             <hr class="col s8 offset-s2">
-            <div class="col s6 offset-s3">
-                <i class="material-icons large">email</i>
-                <i class="material-icons large">call</i>
-                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            <div class="col s6 offset-s3 center">
+                <a href="mailto:noemiarismendi.cc@gmail.com/" class="fa fa-envelope fa-4x col s2 offset-s2 white-text" aria-hidden="true" target="_blank"></a>
+                <a href="" class="fa fa-mobile fa-4x col s2 white-text" aria-hidden="true" target="_blank"></a>
+                <a href="https://github.com/MimiArismendi" class="fa fa-github fa-4x col s2 white-text" aria-hidden="true" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/noem%C3%AD-arismendi-54362279/" class="fa fa-linkedin fa-4x col s2 white-text" aria-hidden="true" target="_blank"></a>
             </div>
             <hr class="col s8 offset-s2">
             <div class="col s8 offset-s2">
-                <p class="contactameTexto">Estoy siempre interesada en nuevos proyectos, sólo enviame un mail y me pondré en contacto lo más pronto posible.</p>
-            </div>
-		</section>
-		
+                <p class="center">Puedes contactarme si deseas más información sobre mis servicios.</p>
+            </div>		
 	</section>
 
-
-<!--seccion footer-->
-    <footer class="col s12"><img src="assets/img/footer.png" class="responsive-img"/></footer>
-    
-    
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
